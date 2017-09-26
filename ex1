@@ -1,37 +1,28 @@
+html5
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>bik craft </title>
+	<title>Listas UL , OL</title>
 	<link rel="stylesheet" href="">
     <script src=""> </script>
 </head>
 <body>
-	<a href="index.html"><img src="img/bikcraft.png" alt="Logomarca Bikecraft"></a>
-	
+	<h1>Bike Craft</h1>
 	<ul>
-		<a href="sobre.html"><li>Sobre</li></a>
-		
+		<li>Sobre</li>
 		<li>Produtos</li>
 		<li>Portifolio</li>
 		<li>Contato</li>
 	</ul>
-	<img src="img/bg.jpg" alt="background">
-	
-	<h1>Bicicletas feitas a mao</h1>
-	<h2>Produtos</h2>
-	<ul>
-		<li><img src="img/produtos/passeio.png" alt="Bicicleta Passeio"></li>
-		<h3>Passeio</h3>
-		<p>xxxxxxxxxxxxxxx</p>
-		<li><img src="img/produtos/esporte.png" alt="Bicicleta Esportes"></li>
-		<h3>Esporte</h3>
-		<p>xxxxxxxxxxxxxxx</p>
-		<li><img src="img/produtos/retro.png" alt="Bicicleta Retro"></li>
-		<h3>Retro</h3>
-		<p>xxxxxxxxxxxxxxx</p>
-	</ul>
+	<ol>
+		<li>Sobre</li>
+		<li>Produtos</li>
+		<li>Portifolio</li>
+		<li>Contato</li>
+		</ol>
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consectetur, hic laboriosam nemo voluptatibus ab iusto eaque, saepe itaque ipsam sapiente perspiciatis. Repellendus ducimus accusamus, voluptate nihil quibusdam explicabo incidunt?</p>
 	<hr>
