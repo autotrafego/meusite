@@ -1,0 +1,67 @@
+body{
+	font-family: Arial,Helvetia,san-serif;
+}
+p{
+	font-family: Georgia,"Times New Roman",serif;
+	font-size:14px;
+	line-height: 20px;
+
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.header{
+	position: fixed; /*fixa o header MENU */
+	top:0;
+	width: 100%;
+	background: #fec63e;
+	padding: 15px 0;
+	z-index: 10; /*Coloca o elemento acima dos outros elementos */
+}
+.header_menu{
+	text-align: right;
+
+
+
+}
+/*Alinha na horizontal a lista menu*/
+.header_menu ul li{
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
+	text-decoration: none;
+
+}
+.header_menu ul li a{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding: 10px 0 ;
+	transition: all .3s ease;
+
+}
+.header_menu ul li a:hover {
+
+	color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+color: #fff;
+
+}
+.introducao{
+	height: 380px ;
+	background: url("../img/bg.jpg") no-repeat center ;
+	background-size: cover; /*ajusta imagem*/
+	margin-top: 92px;
+	padding-top: 80px;
+	text-align: center;
+}
+.introducao h1{
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
